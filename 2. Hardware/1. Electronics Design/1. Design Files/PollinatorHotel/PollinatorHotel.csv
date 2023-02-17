@@ -1,0 +1,7 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","A1","1","Adafruit_Feather_HUZZAH32_ESP32","Module:Adafruit_Feather",""
+"2","C1","1","100nF","",""
+"3","J1","1","Conn_01x02_Socket","",""
+"4","R1, R2, R3","3","10K","",""
+"5","SW1","1","SW_Push","",""
+"6","U1, U2, U3","3","DHT11","Sensor:Aosong_DHT11_5.5x12.0_P2.54mm",""

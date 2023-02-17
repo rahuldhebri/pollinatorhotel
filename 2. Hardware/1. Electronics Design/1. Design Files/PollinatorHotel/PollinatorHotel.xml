@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\GitHub\pollinatorhotel\2. Hardware\1. Electronics Design\1. Design Files\PollinatorHotel\PollinatorHotel.kicad_sch</source>
+    <date>17-02-2023 11:20:48</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pollinator Hotel </title>
+        <company>uOttawa Engineering Design Class </company>
+        <rev>0</rev>
+        <date>2023-02-17</date>
+        <source>PollinatorHotel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Adafruit_Feather_HUZZAH32_ESP32</value>
+      <footprint>Module:Adafruit_Feather</footprint>
+      <datasheet>https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Adafruit_Feather_HUZZAH32_ESP32" description="Microcontroller module with ESP32 MCU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Microcontroller module with ESP32 MCU"/>
+      <property name="ki_keywords" value="Adafruit feather microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb4eb1cb-3fcd-4e41-a505-89508c8ded8b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09bee1e9-27d3-4e7f-a315-9ded1658a130</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Socket</value>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>737df554-7d0a-4fb1-8297-8bf8900f2d7e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8299dc5d-3cb3-4317-ba15-dafb901eb862</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24694ff4-eda2-4e61-be4f-706485d735fa</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33bd2976-9a8d-4d4c-9e16-cbd02b54ad0c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2ef89fa-4f20-4fa2-a0c0-e702e18e11ec</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DHT11</value>
+      <footprint>Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</datasheet>
+      <libsource lib="Sensor" part="DHT11" description="Temperature and humidity module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Temperature and humidity module"/>
+      <property name="ki_keywords" value="Digital temperature humidity sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0a3966a-4a29-41f2-9723-11217a1019c0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>DHT11</value>
+      <footprint>Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</datasheet>
+      <libsource lib="Sensor" part="DHT11" description="Temperature and humidity module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Temperature and humidity module"/>
+      <property name="ki_keywords" value="Digital temperature humidity sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d65f986-1874-40d9-af1c-edf498ca67c1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DHT11</value>
+      <footprint>Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</datasheet>
+      <libsource lib="Sensor" part="DHT11" description="Temperature and humidity module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PollinatorHotel.kicad_sch"/>
+      <property name="ki_description" value="Temperature and humidity module"/>
+      <property name="ki_keywords" value="Digital temperature humidity sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b0449c0-858b-4ea5-8a54-00e156ace80e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Adafruit_Feather_HUZZAH32_ESP32">
+      <description>Microcontroller module with ESP32 MCU</description>
+      <docs>https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf</docs>
+      <footprints>
+        <fp>Adafruit*Feather*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Adafruit_Feather_HUZZAH32_ESP32</field>
+        <field name="Footprint">Module:Adafruit_Feather</field>
+        <field name="Datasheet">https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="input"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DAC2/A0" type="bidirectional"/>
+        <pin num="6" name="DAC1/A1" type="bidirectional"/>
+        <pin num="7" name="I34/A2" type="bidirectional"/>
+        <pin num="8" name="I39/A3" type="bidirectional"/>
+        <pin num="9" name="IO36/A4" type="bidirectional"/>
+        <pin num="10" name="IO4/A5" type="bidirectional"/>
+        <pin num="11" name="SCK/IO5" type="bidirectional"/>
+        <pin num="12" name="MOSI/IO18" type="bidirectional"/>
+        <pin num="13" name="MISO/IO19" type="bidirectional"/>
+        <pin num="14" name="RX/IO16" type="bidirectional"/>
+        <pin num="15" name="TX/IO17" type="bidirectional"/>
+        <pin num="16" name="IO21" type="bidirectional"/>
+        <pin num="17" name="SDA/IO23" type="bidirectional"/>
+        <pin num="18" name="SCL/IO22" type="bidirectional"/>
+        <pin num="19" name="A6/IO14" type="bidirectional"/>
+        <pin num="20" name="A7/IO32" type="bidirectional"/>
+        <pin num="21" name="A8/IO15" type="bidirectional"/>
+        <pin num="22" name="A9/IO33" type="bidirectional"/>
+        <pin num="23" name="A10/IO27" type="bidirectional"/>
+        <pin num="24" name="A11/IO12" type="bidirectional"/>
+        <pin num="25" name="A12/IO13" type="bidirectional"/>
+        <pin num="26" name="USB" type="power_in"/>
+        <pin num="27" name="EN" type="input"/>
+        <pin num="28" name="VBAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="DHT11">
+      <description>Temperature and humidity module</description>
+      <docs>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</docs>
+      <footprints>
+        <fp>Aosong*DHT11*5.5x12.0*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DHT11</field>
+        <field name="Footprint">Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</field>
+        <field name="Datasheet">http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="IO" type="bidirectional"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="A1" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="A1" pin="26" pinfunction="USB" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="A1" pin="28" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/EN">
+      <node ref="A1" pin="27" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="5" name="/IO14">
+      <node ref="A1" pin="19" pinfunction="A6/IO14" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/IO15">
+      <node ref="A1" pin="21" pinfunction="A8/IO15" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/IO32">
+      <node ref="A1" pin="20" pinfunction="A7/IO32" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/~{RESET}">
+      <node ref="A1" pin="1" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(A1-A9{slash}IO33-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A9/IO33" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="unconnected-(A1-A10{slash}IO27-Pad23)">
+      <node ref="A1" pin="23" pinfunction="A10/IO27" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="unconnected-(A1-A11{slash}IO12-Pad24)">
+      <node ref="A1" pin="24" pinfunction="A11/IO12" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(A1-A12{slash}IO13-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A12/IO13" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(A1-DAC1{slash}A1-Pad6)">
+      <node ref="A1" pin="6" pinfunction="DAC1/A1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(A1-DAC2{slash}A0-Pad5)">
+      <node ref="A1" pin="5" pinfunction="DAC2/A0" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(A1-I34{slash}A2-Pad7)">
+      <node ref="A1" pin="7" pinfunction="I34/A2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(A1-I39{slash}A3-Pad8)">
+      <node ref="A1" pin="8" pinfunction="I39/A3" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(A1-IO4{slash}A5-Pad10)">
+      <node ref="A1" pin="10" pinfunction="IO4/A5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(A1-IO21-Pad16)">
+      <node ref="A1" pin="16" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(A1-IO36{slash}A4-Pad9)">
+      <node ref="A1" pin="9" pinfunction="IO36/A4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(A1-MISO{slash}IO19-Pad13)">
+      <node ref="A1" pin="13" pinfunction="MISO/IO19" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(A1-MOSI{slash}IO18-Pad12)">
+      <node ref="A1" pin="12" pinfunction="MOSI/IO18" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(A1-NC-Pad3)">
+      <node ref="A1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-RX{slash}IO16-Pad14)">
+      <node ref="A1" pin="14" pinfunction="RX/IO16" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(A1-SCK{slash}IO5-Pad11)">
+      <node ref="A1" pin="11" pinfunction="SCK/IO5" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(A1-SCL{slash}IO22-Pad18)">
+      <node ref="A1" pin="18" pinfunction="SCL/IO22" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(A1-SDA{slash}IO23-Pad17)">
+      <node ref="A1" pin="17" pinfunction="SDA/IO23" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(A1-TX{slash}IO17-Pad15)">
+      <node ref="A1" pin="15" pinfunction="TX/IO17" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(U1-NC-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-NC-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U3-NC-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
